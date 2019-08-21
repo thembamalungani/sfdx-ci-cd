@@ -1,0 +1,36 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": "petstore",
+            "package": "petstore",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.LATEST",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "common",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "common",
+            "package": "common",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.LATEST",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0",
+    "packageAliases": {
+        "leadservice": "0Ho4J0000008OfYSAU",
+        "common": "0Ho4J0000008OfdSAE",
+        "petstore": "0Ho4J0000008OfiSAE"
+    }
+}
